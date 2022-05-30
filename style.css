@@ -1,0 +1,24 @@
+body {
+  background: rgb(238, 174, 202);
+  background: radial-gradient(circle, rgb(238, 174, 202) 0%, rgb(148, 187, 233) 100%);
+}
+body h1 {
+  text-transform: uppercase;
+}
+body .form-control,
+body input,
+body select,
+body option,
+body .form-select,
+body .form-check-input {
+  background-color: transparent;
+  background: rgb(148, 187, 233);
+  background: linear-gradient(327deg, rgb(148, 187, 233) 36%, rgb(238, 174, 202) 100%);
+  border: 0;
+}
+body form {
+  display: flex ;
+  flex-direction: column !;
+  align-items: center !;
+  justify-content: center ;
+}
