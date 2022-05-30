@@ -3,7 +3,11 @@ body {
   background: radial-gradient(circle, rgb(238, 174, 202) 0%, rgb(148, 187, 233) 100%);
 }
 body h1 {
-  text-transform: uppercase;
+  font-size: 2rem;
+}
+body p {
+  color: red;
+  text-decoration: underline;
 }
 body .form-control,
 body input,
@@ -17,8 +21,11 @@ body .form-check-input {
   border: 0;
 }
 body form {
-  display: flex ;
-  flex-direction: column !;
-  align-items: center !;
-  justify-content: center ;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 }
+body form input {
+  background-color: blue;
+}/*# sourceMappingURL=style.css.map */
